@@ -22,10 +22,11 @@ Stutzmann, Dominique. « Les 'manuscrits datés', base de données sur l’écr
 ```
 
 
-The source of the file are the imitative transcriptions by Géraldine Veyssière based on medieval manuscripts containing the "Pelerinage de vie humaine" of Guillaume de Digulleville.  
+The source of the file are the imitative transcriptions by **Géraldine Veysseyre** (ORCID [0000-0002-3737-2137](https://orcid.org/0000-0002-3737-2137)) based on medieval manuscripts containing the "*Pelerinage de vie humaine*" of Guillaume de Digulleville.  
 
-The transcriptions enhanced in TEI format with :
+The transcriptions were enhanced in TEI format by  **Dominique Stutzmann** (ORCID 
+[0000-0003-3705-5825](https://orcid.org/0000-0003-3705-5825) and **Floriana Ceresato** (IRHT-CNRS), with following features:
 - semantic encoding (&lt;persName/>, &lt;placeName/>, &lt;title/>, &lt;num/>)
-- links to IIIF images
-- coordinates to pixels of the image for each line
 - &lt;choice/>, &lt;abbr/>, &lt;expan/> etc. and entities to describe abbreviations
+
+Links to images and coordinates to pixels of the image for each line were added by **Floriana Ceresato** and **Alexandre Gaudin **(IRHT-CNRS).

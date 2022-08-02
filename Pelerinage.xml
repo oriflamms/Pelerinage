@@ -3,10 +3,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI[
-<!ENTITY % french SYSTEM './entites_dtd/abbreviations_french.dtd'> %french;
-<!ENTITY % abbreviations SYSTEM './entites_dtd/abbreviations.dtd'> %abbreviations; ]>
+<!ENTITY % french SYSTEM 'abbreviations_french.dtd'> %french;
+<!ENTITY % abbreviations SYSTEM 'abbreviations.dtd'> %abbreviations; ]>
 
-<?xml-stylesheet type="text/css" href="../TEI/css/tei_ECMEN_print.css"?>
 <teiCorpus xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
             <fileDesc>
@@ -22,7 +21,7 @@
                               <persName>Floriana Ceresato</persName>
                         </respStmt>
                         <respStmt>
-                              <resp>Lien entre texte et image et publication HTML</resp>
+                              <resp>Lien entre texte et image</resp>
                               <persName>Floriana Ceresato</persName>
                               <persName>Alexandre Gaudin</persName>
                         </respStmt>
@@ -1422,7 +1421,7 @@
             <facsimile xml:id="facs_43">
                   <surface ulx="0" uly="0" lrx="1246" lry="1800">
                         <graphic
-                              url="httpthedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000074_sap.jpg.jpg"
+                              url="thedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000074_sap.jpg"
                               width="1246px" height="1800px"/>
                         <zone points="136,150 634,150 634,1484 136,1484" rendition="TextRegion"
                               xml:id="facs_43_region_1564744136065_6848" rotate="0">
@@ -1737,7 +1736,7 @@
             <facsimile xml:id="facs_44">
                   <surface ulx="0" uly="0" lrx="1274" lry="1800">
                         <graphic
-                              url="thedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000163_sap.jpg.jpg"
+                              url="thedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000163_sap.jpg"
                               width="1274px" height="1800px"/>
                         <zone points="76,96 563,96 563,1597 76,1597" rendition="TextRegion"
                               xml:id="facs_44_region_1564740688760_5716" rotate="0">
@@ -2220,7 +2219,7 @@
             <facsimile xml:id="facs_45">
                   <surface ulx="0" uly="0" lrx="1263" lry="1800">
                         <graphic
-                              url="thedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000164_sap.jpg.jpg"
+                              url="thedigitalwalters.orgDataWaltersManuscriptsW141dataW.141sapW141_000164_sap.jpg"
                               width="1263px" height="1800px"/>
                         <zone points="122,170 122,1573 626,1573 626,170" rendition="TextRegion"
                               xml:id="facs_45_r1" rotate="0">
@@ -4739,7 +4738,7 @@
             <facsimile xml:id="facs_17">
                   <surface ulx="0" uly="0" lrx="5452" lry="3919">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b9059900k/f48/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b9059900kf48fullfull0native.jpg"
                               width="5452px" height="3919px"/>
                         <zone points="2862,341 3927,341 3927,3247 2862,3247" rendition="TextRegion"
                               xml:id="facs_17_region_1564730687443_33" rotate="0">
@@ -5038,7 +5037,7 @@
             <facsimile xml:id="facs_18">
                   <surface ulx="0" uly="0" lrx="5339" lry="3922">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b9059900k/f107/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b9059900kf107fullfull0native.jpg"
                               width="5339px" height="3922px"/>
                         <zone points="495,393 1504,393 1504,3181 495,3181" rendition="TextRegion"
                               xml:id="facs_18_region_1564731370566_288" rotate="0">
@@ -7630,7 +7629,9 @@
                                     <witness>
                                           <msDesc>
                                                 <msIdentifier>
-                                                  <msName>Bruxelles, KBR, 18292-93</msName>
+                                                      <settlement>Bruxelles</settlement>
+                                                      <repository>KBR</repository>
+                                                      <idno>18292-93</idno>
                                                 </msIdentifier>
                                                 <history>
                                                       <origin>
@@ -10577,11 +10578,9 @@
                                     <witness>
                                           <msDesc>
                                                 <msIdentifier>
-                                                      <settlement></settlement>
-                                                      <repository></repository>
-                                                      <idno></idno>
-                                                      <msName>Ms. Leiden, Bibliotheek der
-                                                  Rijksuniversiteit, BPL 0074</msName>
+                                                      <settlement>Leiden</settlement>
+                                                      <repository>Bibliotheek der Rijksuniversiteit</repository>
+                                                      <idno>BPL 0074</idno>
                                                 </msIdentifier>
                                                 <history>
                                                       <origin>
@@ -18776,7 +18775,7 @@
             <facsimile xml:id="facs_46">
                   <surface ulx="0" uly="0" lrx="5440" lry="4080">
                         <graphic
-                              url="bvmm.irht.cnrs.fr/includes/php/rotation.php?vueId=676822&amp;niveauZoom=grand&amp;angle=0.jpg"
+                              url="bvmm.irht.cnrs.frincludesphprotation.php?vueId=676822&amp;niveauZoom=grand&amp;angle=0.jpg"
                               width="5440px" height="4080px"/>
                         <zone points="1129,828 1129,2932 1884,2932 1884,828" rendition="TextRegion"
                               xml:id="facs_46_r1" rotate="0">
@@ -19271,8 +19270,7 @@
             </facsimile>
             <facsimile xml:id="facs_47">
                   <surface ulx="0" uly="0" lrx="5440" lry="4080">
-                        <graphic url="bvmm.irht.cnrs.fr/includes/php/rotation.php?vueId=
-                              676897&amp;niveauZoom=grand&amp;angle=0.jpg" width="5440px"
+                        <graphic url="bvmm.irht.cnrs.frincludesphprotation.php?vueId=676897&amp;niveauZoom=grand&amp;angle=0.jpg" width="5440px"
                               height="4080px"/>
                         <zone points="3035,842 3038,2965 3823,2965 3820,842" rendition="TextRegion"
                               xml:id="facs_47_r4" rotate="0">
@@ -19994,7 +19992,7 @@
             <facsimile xml:id="facs_15">
                   <surface ulx="0" uly="0" lrx="3830" lry="4417">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b7200040w/f73/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b7200040wf73fullfull0native.jpg"
                               width="3830px" height="4417px"/>
                         <zone points="403,457 403,3624 1713,3624 1713,457" rendition="TextRegion"
                               xml:id="facs_15_r1" rotate="0">
@@ -20402,7 +20400,7 @@
             <facsimile xml:id="facs_16">
                   <surface ulx="0" uly="0" lrx="3880" lry="4381">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b7200040w/f154/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b7200040wf154fullfull0native.jpg"
                               width="3880px" height="4381px"/>
                         <zone points="744,509 746,3570 2085,3570 2083,509" rendition="TextRegion"
                               xml:id="facs_16_r1" rotate="0">
@@ -20973,7 +20971,7 @@
             <facsimile xml:id="facs_19">
                   <surface ulx="0" uly="0" lrx="2909" lry="4269">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b10544595h/f73/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b10544595hf73fullfull0native.jpg"
                               width="2909px" height="4269px"/>
                         <zone points="290,195 290,3457 1438,3457 1438,195" rendition="TextRegion"
                               xml:id="facs_19_r2" rotate="0">
@@ -21463,7 +21461,7 @@
             <facsimile xml:id="facs_20">
                   <surface ulx="0" uly="0" lrx="2966" lry="4260">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b10544595h/f155/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b10544595hf155fullfull0native.jpg"
                               width="2966px" height="4260px"/>
                         <zone points="256,229 255,3472 1433,3472 1434,229" rendition="TextRegion"
                               xml:id="facs_20_r2" rotate="0">
@@ -22041,7 +22039,7 @@
             <facsimile xml:id="facs_21">
                   <surface ulx="0" uly="0" lrx="3009" lry="4319">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b10544595h/f156/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b10544595hf156fullfull0native.jpg"
                               width="3009px" height="4319px"/>
                         <zone points="371,267 375,3472 1520,3472 1516,267" rendition="TextRegion"
                               xml:id="facs_21_r2" rotate="0">
@@ -22831,7 +22829,7 @@
             <facsimile xml:id="facs_22">
                   <surface ulx="0" uly="0" lrx="6690" lry="5016">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b90611708/f46/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b90611708f46fullfull0native.jpg"
                               width="6690px" height="5016px"/>
                         <zone points="3433,557 3433,3906 4648,3906 4648,557" rendition="TextRegion"
                               xml:id="facs_22_r5" rotate="0">
@@ -23294,7 +23292,7 @@
             <facsimile xml:id="facs_23">
                   <surface ulx="0" uly="0" lrx="6689" lry="5013">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b90611708/f47/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b90611708f47fullfull0native.jpg"
                               width="6689px" height="5013px"/>
                         <zone points="706,537 706,3988 2034,3985 2034,534" rendition="TextRegion"
                               xml:id="facs_23_r1" rotate="0">
@@ -23626,7 +23624,7 @@
             <facsimile xml:id="facs_24">
                   <surface ulx="0" uly="0" lrx="6675" lry="5072">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b90611708/f105/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b90611708f105fullfull0native.jpg"
                               width="6675px" height="5072px"/>
                         <zone points="775,572 775,3996 2065,3996 2065,572" rendition="TextRegion"
                               xml:id="facs_24_r1" rotate="0">
@@ -24684,7 +24682,7 @@
             <facsimile xml:id="facs_25">
                   <surface ulx="0" uly="0" lrx="3180" lry="4539">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b531384355/f79/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b531384355f79fullfull0native.jpg"
                               width="3180px" height="4539px"/>
                         <zone points="148,424 1158,424 1158,3761 148,3761" rendition="TextRegion"
                               xml:id="facs_25_region_1564733750976_1673" rotate="0">
@@ -25195,7 +25193,7 @@
             <facsimile xml:id="facs_26">
                   <surface ulx="0" uly="0" lrx="3158" lry="4517">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b531384355/f80/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b531384355f80fullfull0native.jpg"
                               width="3158px" height="4517px"/>
                         <zone points="861,428 1940,428 1944,3744 865,3744" rendition="TextRegion"
                               xml:id="facs_26_region_1564733809092_1691" rotate="0">
@@ -25546,7 +25544,7 @@
             <facsimile xml:id="facs_27">
                   <surface ulx="0" uly="0" lrx="3180" lry="4539">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b531384355/f163/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b531384355f163fullfull0native.jpg"
                               width="3180px" height="4539px"/>
                         <zone points="233,443 233,3748 1382,3748 1382,443" rendition="TextRegion"
                               xml:id="facs_27_r1" rotate="0">
@@ -26042,7 +26040,7 @@
             <facsimile xml:id="facs_28">
                   <surface ulx="0" uly="0" lrx="3210" lry="4554">
                         <graphic
-                              url="gallica.bnf.fr_iiifark12148btv1b531384355/f164/full/full/0/native.jpg"
+                              url="gallica.bnf.fr_iiifark12148btv1b531384355f164fullfull0native.jpg"
                               width="3210px" height="4554px"/>
                         <zone points="786,474 793,3742 1842,3742 1835,474" rendition="TextRegion"
                               xml:id="facs_28_r1" rotate="0">
@@ -26774,7 +26772,7 @@
             <facsimile xml:id="facs_48">
                   <surface ulx="0" uly="0" lrx="1942" lry="2843">
                         <graphic
-                              url="https://digi.vatlib.it/pub/digit/MSS_Reg.lat.1668/iiif/Reg.lat.1668_0056_fa_0025v.jp2/full/full/0/native.jpg"
+                              url="digi.vatlib.itpubdigitMSS_Reg.lat.1668iiifReg.lat.1668_0056_fa_0025v.jp2fullfull0native.jpg"
                               width="1942px" height="2843px"/>
                         <zone points="309,261 961,265 966,2237 314,2233" rendition="TextRegion"
                               xml:id="facs_48_region_1565250689450_95" rotate="0">
@@ -27406,7 +27404,7 @@
             <facsimile xml:id="facs_49">
                   <surface ulx="0" uly="0" lrx="1942" lry="2843">
                         <graphic
-                              url="https://digi.vatlib.it/pub/digit/MSS_Reg.lat.1668/iiif/Reg.lat.1668_0113_fa_0054r.jp2/full/full/0/native.jpg"
+                              url="digi.vatlib.itpubdigitMSS_Reg.lat.1668iiifReg.lat.1668_0113_fa_0054r.jp2fullfull0native.jpg"
                               width="1942px" height="2843px"/>
                         <zone points="215,164 830,164 828,2339 213,2339" rendition="TextRegion"
                               xml:id="facs_49_region_1565250789760_110" rotate="0">
@@ -28148,7 +28146,7 @@
                                     <witness>
                                           <msDesc>
                                                 <msIdentifier>
-                                                      <settlement>New-Haven</settlement>
+                                                      <settlement>New Haven</settlement>
                                                       <repository>Yale University, Beinecke Library</repository>
                                                       <idno>Beinecke 406</idno>
                                                 </msIdentifier>
